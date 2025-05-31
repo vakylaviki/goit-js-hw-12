@@ -74,7 +74,7 @@ body {
 }
 
 .loader.is-hidden {
-  display: none;
+  display: none !important;
 }
 
 .loader:not(.is-hidden) {
