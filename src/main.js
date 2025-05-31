@@ -72,3 +72,5 @@ loadMoreBtn.addEventListener('click', async () => {
     hideLoader();
   }
 });
+
+

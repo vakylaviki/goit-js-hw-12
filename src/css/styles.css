@@ -72,7 +72,9 @@ body {
   animation: spin 1s infinite linear;
   display: none;
 }
-
+.load-more.is-hidden {
+  display: none !important;
+}
 .loader.is-hidden {
   display: none !important;
 }
