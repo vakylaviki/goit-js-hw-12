@@ -63,15 +63,6 @@ body {
 }
 
 .loader {
-  display: block;
-  margin: 0 auto 24px;
-}
-
-.is-hidden {
-  display: none;
-}
-.loader {
-  display: block;
   margin: 20px auto;
   width: 48px;
   height: 48px;
@@ -79,6 +70,15 @@ body {
   border-top-color: #1d72b8;
   border-radius: 50%;
   animation: spin 1s infinite linear;
+  display: none;
+}
+
+.loader.is-hidden {
+  display: none;
+}
+
+.loader:not(.is-hidden) {
+  display: block;
 }
 @keyframes spin {
   to {
